@@ -1,0 +1,26 @@
+{
+  "name": "vue-self-component-doc",
+  "version": "1.0.0",
+  "description": "为自己的vue业务组件生成文档 vue3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cander0815/vue-self-component-doc.git"
+  },
+  "keywords": [
+    "vue3",
+    "docs"
+  ],
+  "author": "cander0815",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cander0815/vue-self-component-doc/issues"
+  },
+  "homepage": "https://github.com/cander0815/vue-self-component-doc#readme",
+  "devDependencies": {
+    "rollup": "^4.27.3"
+  }
+}
