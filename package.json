@@ -4,7 +4,7 @@
   "description": "为自己的vue业务组件生成文档 vue3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/cander0815/vue-self-component-doc#readme",
   "devDependencies": {
-    "rollup": "^4.27.3"
+    "@rollup/plugin-typescript": "^12.1.1",
+    "rollup": "^4.27.3",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
   }
 }
